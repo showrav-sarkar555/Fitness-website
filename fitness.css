@@ -97,11 +97,13 @@ a {
 li {
     list-style: none;
 }
-header li:hover{
+
+header li:hover {
     background-color: #c94f35;
     padding: 7px;
     border-radius: 16px;
 }
+
 .banner {
 
     justify-content: space-between;
@@ -109,7 +111,7 @@ header li:hover{
 }
 
 .banner img {
-    /* max-width: 21.88rem; */
+    max-width: 21.88rem;
 }
 
 .banner-text {
@@ -422,6 +424,13 @@ body {
         align-items: center;
         text-align: center;
     }
+
+    .banner img {
+        width: 100%;
+        /* add this */
+        height: auto;
+    }
+
 
     .change-habit {
         margin-top: 900px;
