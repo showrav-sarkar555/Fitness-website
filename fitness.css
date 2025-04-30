@@ -9,7 +9,7 @@
 .font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <400>;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -75,6 +75,7 @@ main {
     width: 14rem;
     background: rgb(230, 83, 60);
     padding: 16px 40px 16px 40px;
+    cursor: pointer;
 }
 
 
@@ -96,7 +97,11 @@ a {
 li {
     list-style: none;
 }
-
+header li:hover{
+    background-color: #c94f35;
+    padding: 7px;
+    border-radius: 16px;
+}
 .banner {
 
     justify-content: space-between;
@@ -419,7 +424,7 @@ body {
     }
 
     .change-habit {
-        margin-top: 800px;
+        margin-top: 900px;
     }
 
     header {
