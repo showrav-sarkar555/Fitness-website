@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Miama';
+    src: url('Miama.ttf') format('truetype');
+}
+
+.font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <400>;
+    font-style: normal;
+}
+
+.style {
+    font-family: 'Miama', sans-serif;
+    font-weight: 200;
+    font-size: 150px;
+
+
+}
+
+
+main {
+    max-width: 75rem;
+    margin: 0px auto;
+}
+
+/* shared styles */
+.flex {
+    display: flex;
+    gap: 47px;
+}
+
+.border {
+    border: 1px solid white;
+}
+
+.orange {
+    color: rgb(230, 83, 60);
+}
+
+.p-color {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 1rem;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
+.size-1 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.size-3 {
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.size-2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 42px;
+    width: 14rem;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+}
+
+
+header {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links ul {
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+.banner {
+
+    justify-content: space-between;
+    max-height: 43.75rem;
+}
+
+.banner img {
+    /* max-width: 21.88rem; */
+}
+
+.banner-text {
+    max-width: 32.5rem;
+}
+
+.img .box-1 {
+    width: 206px;
+    height: 96px;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: relative;
+    bottom: 180px;
+    right: 63px;
+
+
+}
+
+.img .box-2 h3,
+.box-1 h3 {
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.img .box-2 h4,
+.box-1 h4 {
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.img .box-2 {
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    bottom: 580px;
+    left: 210px;
+    padding: 10px;
+}
+
+.img .box-2,
+.box-1 {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-habit {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.change-habit img {
+    border-radius: 50%;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.images {
+    justify-content: space-evenly;
+}
+
+.heading h1 {
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    margin: 0%;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.run-text {
+    width: 28rem;
+
+}
+
+.run {
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 18px;
+    padding: 30px 20px 29px 50px;
+    background: rgb(34, 34, 34);
+    margin-bottom: 8rem;
+}
+
+.collage {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 8px;
+    margin-bottom: 4rem;
+}
+
+.col img {
+    width: 392px;
+    height: 218px;
+}
+
+.bmi-header {
+    width: 41rem;
+    height: 7.8rem;
+    margin: 0px auto;
+    margin-bottom: 4rem;
+}
+
+.bmi-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+    flex-wrap: wrap;
+    background-color: #3a3a3a;
+}
+
+.bmi-section h2 {
+    color: wheat;
+}
+
+.bmi-chart,
+.bmi-calculator {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+.bmi-chart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.bmi-chart th,
+.bmi-chart td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+    color: #ccc;
+}
+
+.bmi-chart th {
+    color: white;
+}
+
+.bmi-calculator p {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.bmi-calculator form>div {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.bmi-calculator input,
+.bmi-calculator select {
+    flex: 1;
+    padding: 10px;
+    background-color: #3a3a3a;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.bmi-calculator button {
+    padding: 10px 30px;
+    background-color: #e05a3c;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.bmi-calculator button:hover {
+    background-color: #c94f35;
+}
+
+.team-collage img {
+    width: 327px;
+    height: 272px;
+
+}
+
+.team-collage {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    flex-wrap: wrap;
+    gap: 40px;
+    row-gap: 0px;
+    padding: 2rem;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team-collage .title,
+.team-collage p {
+    margin: 0px;
+    position: relative;
+    bottom: 70px;
+}
+
+.team-header {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.one,
+.two {
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+}
+
+footer h2 {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 800;
+}
+
+hr {
+    border: none;
+    height: 3px;
+
+
+}
+
+.hR {
+    position: relative;
+    bottom: 9px;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    height: 80px;
+
+}
+
+.hR h4 {
+    color: #555;
+}
+
+body {
+    background: rgb(17, 17, 17);
+}
+
+@media (max-width: 767px) {
+
+    .flex,
+    .banner,
+    .run,
+    .bmi-section,
+    .team-collage,
+    footer,
+    header,
+    .links ul {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .change-habit {
+        margin-top: 800px;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    .banner-text,
+    .run-text,
+    .bmi-header {
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .bmi-chart,
+    .bmi-calculator {
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .col img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .team-collage img {
+        width: 100%;
+        aspect-ratio: 1.2;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+
+    .team-collage {
+        padding: 1rem;
+        gap: 20px;
+    }
+
+    footer {
+        padding: 2rem 1rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer h2 {
+        font-size: 40px;
+    }
+
+    .img .box-1,
+    .img .box-2 {
+        position: static;
+        margin: 1rem auto;
+        width: 80%;
+        max-width: 250px;
+    }
+
+    footer h1 {
+        font-size: 35px;
+    }
+
+    .img .box-1 h3,
+    .img .box-2 h3 {
+        font-size: 24px;
+    }
+
+    .img .box-1 h4,
+    .img .box-2 h4 {
+        font-size: 12px;
+    }
+
+    .change-habit img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
+
+    .run {
+        padding: 1rem;
+    }
+
+    h1,
+    h2,
+    h3 {
+        text-align: center;
+        margin: 0%;
+    }
+
+    .run-text,
+    .bmi-calculator p {
+        text-align: center;
+    }
+
+    .one {
+        margin: 0px;
+    }
+
+    ul {
+        padding-left: 0%;
+    }
+}
